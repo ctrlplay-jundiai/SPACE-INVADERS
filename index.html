@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+   <a href="https://drive.google.com/drive/folders/1FPMKZniT0ltkx-En_KOjyqToN-J87dyj?usp=sharing">ASSETS</a>
+<h3 style="text-align: left;">INTRODUÇÃO</h3>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>1.</strong> Comece a aula ensinando a como baixar e instalar a ferramenta;</span></h5>
+  <p style="text-align: left;"><a href="https://www.scirra.com/construct2" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> CONSTRUCT 2</span></a>
+  </p><p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.</strong> Mostre aos alunos o resultado final do projeto a ser estudado nesta aula;</span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>3.</strong> Abra um novo projeto em branco e dê uma visão geral para os alunos sobre a interface da ferramenta;</span></h5>
+  <p style="text-align: left;"><a href="https://www.scirra.com/manual/10/overview" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> OVERVIEW</span></a>
+  </p><p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>4.</strong> Dê aos alunos o acesso aos </span><i><span style="font-weight: 400;">assets </span></i><span style="font-weight: 400;">que serão usados para este projeto;</span></h5>
+  <hr>
+  <p><a name="config"></a></p>
+  <h3 style="text-align: left;"><b>CONFIGURANDO A FERRAMENTA</b></h3>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>1.&nbsp;</strong>Nas propriedades do projeto, mude o <em>Windows Size</em> para 800 x 600 e o nome do projeto para “Space Invaders” &nbsp;e, no <em>Layout Properties</em> (com um clique na tela em branca), mude o <em>Layout Size</em> e o <em>Margins</em> para o mesmo valor, conforme as imagens abaixo:</span><img fetchpriority="high" decoding="async" class="wp-image-1985 size-full aligncenter" src="01.png" alt="" width="257" height="355" 100vw, 257px">&nbsp; &nbsp;<img decoding="async" class="wp-image-1986 size-full aligncenter" src="02.png" alt="" width="259" height="142" sizes="(max-width: 259px) 100vw, 259px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.&nbsp;</strong>Explique o conceito de </span><i><span style="font-weight: 400;">Layers</span></i><span style="font-weight: 400;"> para os alunos e os oriente a criar três layers: Background (para o plano de fundo), Gameplay (para configurar todos os elementos do jogo) e UI (para a interface do usuário);</span></h5>
+  <p style="text-align: left;"><a href="https://www.scirra.com/manual/42/layers-bar" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> LAYERS BAR</span></a>
+  </p><p><img decoding="async" class="wp-image-1992 size-full aligncenter" src="03.jpg" alt="" width="377" height="385" sizes="(max-width: 377px) 100vw, 377px"></p>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>3.&nbsp;</strong>Na aba de Projects, importe os sons que serão usados na pasta correspondente;</span><img loading="lazy" decoding="async" class="wp-image-1993 size-full aligncenter" src="04.jpg" alt="" width="377" height="384" sizes="(max-width: 377px) 100vw, 377px"></h5>
+  <hr>
+  <p><a name="projeto"></a></p>
+  <h3 style="text-align: left;"><b>COMEÇANDO O PROJETO</b></h3>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>1.&nbsp;</strong>De volta à <em>Layers</em>, selecione a layer do Background e ensine os alunos a como inserir um novo objeto na cena e adicione um </span><i>Tiled Background </i><span style="font-weight: 400;">e explique o conceito deste objeto;</span></h5>
+  <p style="text-align: left;"><a href="https://www.scirra.com/manual/118/tiled-background" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> TILED BACKGROUND</span></a>
+  </p><h5 style="text-align: left;"><span style="font-weight: 400;"><strong><img loading="lazy" decoding="async" class="wp-image-1994 size-full aligncenter" src="05.jpg" alt="" width="992" height="547"  sizes="(max-width: 992px) 100vw, 992px"></strong></span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.&nbsp;</strong>Não se esqueça de trancar a layer depois, para que ela não seja alterada;</span><img loading="lazy" decoding="async" class="wp-image-1995 size-full aligncenter" src="06.jpg" alt="" width="377" height="124" sizes="(max-width: 377px) 100vw, 377px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>3.&nbsp;</strong>Com a layer Background pronta e trancada, vá na layer de Gameplay pra começar a adicionar os objetos do jogo, começando pela nave do jogador. Coloque na cena um objeto do tipo <em><strong>Sprite</strong></em> e escolha a imagem da nave na pasta dos assets;</span><img loading="lazy" decoding="async" class="wp-image-1996 size-full aligncenter" src="07.jpg" alt="" width="850" height="545" sizes="(max-width: 850px) 100vw, 850px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>4.&nbsp;</strong>Explique a importância do Sprite como um dos objetos mais utilizados dentro da ferramenta;</span></h5>
+  <p style="text-align: left;"><a href="https://www.scirra.com/manual/115/sprite" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> SPRITE</span></a>
+  </p><p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>5.&nbsp;</strong>Posicione a nave na parte inferior do cenário, troque o nome da Sprite e redimensione-a para os valores indicados;</span><img loading="lazy" decoding="async" class="wp-image-1998 size-full aligncenter" src="08.jpg" alt="" width="953" height="548" sizes="(max-width: 953px) 100vw, 953px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>6.&nbsp;</strong>Adicione os <em><strong>Behaviors</strong></em> com os valores indicados abaixo e explique o que é um Behavior e como os que foram usados funcionam;</span></h5>
+  <p style="text-align: left;"><a href="https://www.scirra.com/manual/72/behaviors" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> BEHAVIORS</span></a>&nbsp;<a href="https://www.scirra.com/manual/86/behavior-reference" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> REFERENCES</span></a>
+  </p><h5 style="text-align: left;"><span style="font-weight: 400;"><strong><img loading="lazy" decoding="async" class="wp-image-1999 size-full aligncenter" src="09.jpg" alt="" width="697" height="294" sizes="(max-width: 697px) 100vw, 697px"></strong></span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>7.&nbsp;</strong>Teste o projeto com os alunos para mostrar as ações dos Behaviors. Se achar necessário, troque os valores para outros testes como exemplos;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>8.&nbsp;</strong>Para adicionar o tiro da nave, coloque um novo objeto do tipo Sprite, selecionando a imagem correspondente e configure-a como mostrado abaixo;</span></h5>
+  <p style="text-align: left;"><a href="https://www.scirra.com/manual/90/bullet" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> BULLET</span></a>
+  </p><h5 style="text-align: left;"><span style="font-weight: 400;"><strong><img loading="lazy" decoding="async" class="aligncenter wp-image-2001 size-full" src="10.jpg" alt="" width="646" height="549" sizes="(max-width: 646px) 100vw, 646px"></strong></span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>9.&nbsp;</strong>Destaque que, para que o jogo não comece já com um tiro disparado, é necessário mover o objeto para fora do cenário. Desta forma, o Behavior </span><i><span style="font-weight: 400;">Destroy Outside Layout </span></i><span style="font-weight: 400;">irá destruir o objeto sem perder sua referência;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>10.&nbsp;</strong>Para que a nave possa disparar o tiro, clique novamente nela para adicionar mais um ponto na imagem. Este ponto será de onde o tiro irá partir;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2002 size-full" src="11.jpg" alt="" width="967" height="613" sizes="(max-width: 967px) 100vw, 967px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>11.&nbsp;</strong>Veja a sequência acima, identificando os passos e onde está localizado o novo ponto criado (índice 3) e como ele é identificado (índice 5);</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>12.&nbsp;</strong>Para que o aluno consiga atirar, insira o objeto <em><strong>Keyboard</strong></em>, que permitirá a identificação dos inputs do teclado;</span></h5>
+  <a href="https://www.scirra.com/manual/113/keyboard" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> KEYBOARD</span></a>
+  <p><img loading="lazy" decoding="async" class="aligncenter wp-image-2003 size-full" src="12.jpg" alt="" width="613" height="537" sizes="(max-width: 613px) 100vw, 613px"></p>
+  <hr>
+  <p><a name="programacao"></a></p>
+  <h3 style="text-align: left;"><b>COMEÇANDO A PROGRAMAR</b></h3>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>1.&nbsp;</strong>A partir deste momento, os alunos começarão a programar dentro do Construct 2. Dê uma breve explicação sobre a </span><i><span style="font-weight: 400;">event sheet </span></i><span style="font-weight: 400;">e como funciona a programação dentro da ferramenta.</span></h5>
+  <a href="https://www.scirra.com/manual/121/event-sheets" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> EVENT SHEET</span></a>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.&nbsp;</strong>Para manter a </span><i><span style="font-weight: 400;">event sheet </span></i><span style="font-weight: 400;">organizada e para facilitar o entendimento dos alunos, comece criando um <strong>novo grupo</strong>, chamando-o de “Nave”, onde será colocado todos as linhas que dizem respeito à Nave do jogo;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2005 size-full" src="13.jpg" alt="" width="419" height="353"sizes="(max-width: 419px) 100vw, 419px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>3.&nbsp;</strong>Crie um novo evento para quando a tecla ‘espaço’ for apertada e arraste a linha para dentro do grupo da Nave;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>4.&nbsp;</strong>Explique para os alunos o que é um evento e que deve haver uma ação para acontecer neste evento. Destaque que algum objeto deve realizar tal ação;</span></h5>
+  <a href="https://www.scirra.com/manual/75/how-events-work" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> HOW EVENTS WORK</span></a>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>5.&nbsp;</strong>Neste caso:</span></h5>
+  <ul>
+  <li style="text-align: left;">
+  <h5><b>Evento: </b><i><span style="font-weight: 400;">[objeto/componente] </span></i><span style="font-weight: 400;">keyboard </span><i><span style="font-weight: 400;">[detectar alguma condição</span></i><i><span style="font-weight: 400;">] </span></i><span style="font-weight: 400;">ter a tecla ‘espaço’ apertada;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><b>Ação: </b><i><span style="font-weight: 400;">[objeto]</span></i><span style="font-weight: 400;"> nave </span><i><span style="font-weight: 400;">[deve realizar uma ação]</span></i><span style="font-weight: 400;"> spawnar (instanciar/criar) um </span><i><span style="font-weight: 400;">[que pode afetar outro objeto]</span></i><span style="font-weight: 400;"> tiro;</span></h5>
+  </li>
+  </ul>
+  <a href="https://www.scirra.com/manual/77/actions" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> ACTIONS</span></a>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong><img loading="lazy" decoding="async" class="aligncenter wp-image-2007 size-full" src="14.jpg" alt="" width="1082" height="361"  sizes="(max-width: 1082px) 100vw, 1082px"></strong></span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>6.&nbsp;</strong>Note que, ao escrever a ação, o tiro deve ser spawnado com as configurações certas: layer 1 (de gameplay) e com a image point que criamos anteriormente, que pode ser identificada pelo nome ou pelo index;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>7.&nbsp;</strong>Para que o tiro tenha o movimento adequado, adicione uma ação que determinará que o ângulo de movimento do behavior <em>bullet</em> será – 90º;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2008 size-full" src="15.jpg" alt="" width="683" height="584" sizes="(max-width: 683px) 100vw, 683px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>8.&nbsp;</strong>Teste o jogo com os alunos para que eles percebam como este evento funciona na prática;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>9.&nbsp;</strong>Para que o jogador não consiga atirar o tempo todo, vamos adicionar uma variável booleana que permitirá que um tiro ocorra depois de um determinado tempo. Explique que uma variável do tipo bool só recebe dois valores: verdadeiro ou falso;</span></h5>
+  <a href="https://www.scirra.com/manual/73/instance-variables" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> INSTANCE VARIABLES</span></a>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>10.&nbsp;</strong>Volte no layout e selecione a Nave para abrir a propriedades do objeto, onde as variáveis ficam localizadas e siga os passos descritos na imagem abaixo;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2009 size-full" src="16.jpg" alt="" width="692" height="432" sizes="(max-width: 692px) 100vw, 692px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>11.&nbsp;</strong>Normalmente, uma variável booleana é nomeada para parecer uma pergunta que será respondida com sim ou não (true/verdadeiro ou false/falso). Neste caso, queremos saber se o jogador ‘<em>podeAtirar</em>’;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>12.&nbsp;</strong>Note que o valor inicial é true/verdadeiro, pois o jogador não começa o jogo já atirando;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>13.&nbsp;</strong>Agora, temos duas condições para que o jogador possa atirar:</span></h5>
+  <ul>
+  <li style="text-align: left;">
+  <h5><b>Se</b><span style="font-weight: 400;"> a tecla ‘espaço’ for apertada </span><b>E</b><span style="font-weight: 400;"> se podeAtirar for verdadeiro → nave pode atirar.</span></h5>
+  </li>
+  </ul>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>14.&nbsp;</strong>Para adicionar uma nova condição, clique com o botão direito no evento (não na linha de ação) e clique em </span><i><span style="font-weight: 400;">Add another condition;</span></i></h5>
+  <a href="https://www.scirra.com/manual/76/conditions" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> CONDITIONS</span></a>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong><img loading="lazy" decoding="async" class="aligncenter wp-image-2010 size-full" src="17.jpg" alt="" width="552" height="126"  sizes="(max-width: 552px) 100vw, 552px"></strong></span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>15.&nbsp;</strong>Como a booleana está localizada na Nave, é ela quem vamos selecionar para buscar a variável e verificar se ela é verdadeira;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2011 size-full" src="18.jpg" alt="" width="596" height="220"  sizes="(max-width: 596px) 100vw, 596px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>16.&nbsp;</strong>Com a nova condição adicionada, o bloco do evento deve conter duas linhas agora;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>17.&nbsp;</strong>Quando o tiro for instanciado, o jogador já não poderá mais atirar logo em seguida, então ‘podeAtirar’ deve ser definida como falso;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2012 size-full" src="19.jpg" alt="" width="595" height="207"  sizes="(max-width: 595px) 100vw, 595px"></h5>
+  <h5 style="text-align: left;">&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2013 size-full" src="20.jpg" alt="" width="467" height="252" sizes="(max-width: 467px) 100vw, 467px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>18.&nbsp;</strong>Para este projeto, vamos definir que o jogador só poderá atirar novamente quando a bala antiga for destruída. Através desta frase, já podemos identificar o evento e ação que precisaremos adicionar:</span></h5>
+  <ul>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;"> “o jogador só poderá atirar novamente (<strong>ação</strong>) quando a bala antiga for destruída (<strong>evento</strong>)”;</span></h5>
+  </li>
+  </ul>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>19.&nbsp;</strong>Neste caso, confira como o novo evento deve ficar:</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2014 size-full" src="21.jpg" alt="" width="621" height="175"  sizes="(max-width: 621px) 100vw, 621px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>20.&nbsp;</strong>Caso haja necessário, teste o jogo para que os alunos vejam que só conseguem atirar depois que e o tiro antigo sai da tela (pois ele será destruído pelo behavior de </span><i><span style="font-weight: 400;">destroy outside layout</span></i><span style="font-weight: 400;">);</span></h5>
+  <hr>
+  <p><a name="inimigos"></a></p>
+  <h3 style="text-align: left;">ADICIONANDO INIMIGOS</h3>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>1.&nbsp;</strong>Ao trabalhar com os inimigos, vamos abordar um pouco de animações e frames;</span></h5>
+  <a href="https://www.scirra.com/manual/48/image-and-animations-editor" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> IMAGE EDITOR</span></a>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.&nbsp;</strong>Adicione um novo sprite mas selecione as imagens através da janela de </span><i><span style="font-weight: 400;">Animation Frames </span></i><span style="font-weight: 400;">que aparece em baixo, importando os arquivos;</span>&nbsp;<img loading="lazy" decoding="async" class="22.jpg" alt="" width="884" height="203" sizes="(max-width: 884px) 100vw, 884px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>3.&nbsp;</strong>Para a primeira fileira, selecione apenas o inimigo 1A e 1B;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>4.&nbsp;</strong>Duplique cada frame para que fique 4 frames;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2015 size-full" src="23.jpg" alt="" width="541" height="196" sizes="(max-width: 541px) 100vw, 541px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>5.&nbsp;</strong>Não se esqueça de deixar na ordem correta!</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2017 size-full" src="24.jpg" alt="" width="558" height="118"  sizes="(max-width: 558px) 100vw, 558px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>6.&nbsp;</strong>Configure as </span><i><span style="font-weight: 400;">speed</span></i><span style="font-weight: 400;">, </span><i><span style="font-weight: 400;">loop </span></i><span style="font-weight: 400;">e o nome da animação;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2018 size-full" src="25.jpg" alt="" width="1277" height="579"  sizes="(max-width: 1277px) 100vw, 1277px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>7.&nbsp;</strong>Em seguida, duplique a animação duas vezes, renomeando-as para ‘Invaders2’ e ‘Invaders3’. Dentro de cada uma delas, substitua os sprites pelos inimigos 2A/B e 3A/B, mantendo a mesma estrutura de 4 frames alternados;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2019 size-full" src="26.jpg" alt="" width="196" height="306"  sizes="(max-width: 196px) 100vw, 196px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>8.&nbsp;</strong>Com tudo pronto, feche esta janela, redimensione o tamanho do inimigo para 50 x 50 e o renomeie para ‘Invasor’;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>9.&nbsp;</strong>Para os próximos passos, vamos precisar visualizar a grade;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2020 size-full" src="27.jpg" alt="" width="887" height="202"  sizes="(max-width: 887px) 100vw, 887px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>10.&nbsp;</strong>Para montar as fileiras de invasores, segure o Ctrl para copiar um objeto e Shift para manter todos os objetos na mesma altura. Faça uma fileira que ocupe todo o cenário, conforme a imagem abaixo:</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2021 size-full" src="28.jpg" alt="" width="640" height="496" sizes="(max-width: 640px) 100vw, 640px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>11.&nbsp;</strong>Repita o processo criando mais duas linhas, diminuindo a quantidade de invasores por linha;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2022 size-full" src="29.jpg" alt="" width="670" height="503"  sizes="(max-width: 670px) 100vw, 670px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>12.&nbsp;</strong>Para mudar os invasores, nas propriedades do objeto, busque pela área de propriedades de animação e troque o campo <em>‘Initial animation</em>’ para o nome das animações correspondentes: 1ª linha – Invaders1, 2ª linha – Invaders2, 3ª linha – Invaders3;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2023 size-full" src="30.jpg" alt="" width="232" height="165"  sizes="(max-width: 232px) 100vw, 232px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>13.&nbsp;</strong>Faça os ajustes de posição necessários para que os invasores fiquem parecidos com a imagem e teste o jogo para mostrar as animações aos alunos. Explique que este procedimento foi feito para evitar o uso de mais de um objeto inimigo;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2024 size-full" src="31.jpg" alt="" width="680" height="517"  sizes="(max-width: 680px) 100vw, 680px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>14.&nbsp;</strong>Com os invasores devidamente colocados na tela, prossiga para a programação da movimentação deles. Na </span><i><span style="font-weight: 400;">event sheet</span></i><span style="font-weight: 400;">, crie um novo grupo chamado ‘Invasores’;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>15.&nbsp;</strong>Para simular a movimentação clássica de um </span><i><span style="font-weight: 400;">Space Invaders</span></i><span style="font-weight: 400;">, comece criando um movimento para a direita que acontecerá a cada 1 segundo. Explique sobre coordenadas (x, y) para maior entendimento;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>16.&nbsp;</strong>Comece com um evento </span><i><span style="font-weight: 400;">‘Every X seconds</span></i><span style="font-weight: 400;">’ e o configure para 1 segundo. Como ação, selecione ‘</span><i><span style="font-weight: 400;">Set X</span></i><span style="font-weight: 400;">’ e adicione 20 pixels à sua posição atual;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2026 size-full" src="33.jpg" alt="" width="441" height="188" sizes="(max-width: 441px) 100vw, 441px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>17.&nbsp;</strong>Confira o resultado final:</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2027 size-full" src="34.jpg" alt="" width="515" height="97" sizes="(max-width: 515px) 100vw, 515px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>18.&nbsp;</strong>Porém, ao testar o jogo, os Invasores irão para a direita e sairão da tela por completo;</span></h5>
+  <h5 style="text-align: left;"></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>19.&nbsp;</strong>Para evitar isso, crie um sprite de qualquer cor, chame-o de Paredes e coloque-o nas bordas (utilize novamente o Ctrl para copiar o objeto) e, para que elas não apareçam no jogo, mude a ‘<em>Initial visibility</em>’ para ‘<em>invisible</em>’;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2028 size-full" src="35.jpg" alt="" width="906" height="553"  sizes="(max-width: 906px) 100vw, 906px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>20.&nbsp;</strong>Crie uma variável booleana no Invasor chamada ‘<em>paraDireita</em>’ com valor inicial </span><i><span style="font-weight: 400;">false</span></i><span style="font-weight: 400;">. Ela será responsável por controlar se o Invasor pode ir para a direita ou não (caso esteja encostado nas paredes que foram criadas);</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>21.&nbsp;</strong>Clique com o botão direito no evento do ‘<em>Every 1 seconds</em>’ e crie dois novos <strong>sub-eventos;</strong></span></h5>
+  <a href="https://www.scirra.com/manual/128/sub-events" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> SUB-EVENTS</span></a>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong><img loading="lazy" decoding="async" class="aligncenter wp-image-2029 size-full" src="36.jpg" alt="" width="640" height="183" sizes="(max-width: 640px) 100vw, 640px"></strong></span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>22.&nbsp;</strong>Os dois sub-eventos vão verificar se ‘<em>paraDireita</em>’ é verdadeiro ou falso, determinando se os Invasores irão para a direita ou para a esquerda;</span></h5>
+  <ul>
+  <li>
+  <h5><span style="font-weight: 400;">Se</span> <span style="font-weight: 400;">paraDireita = true → Invasor.X + 20 (direita);</span></h5>
+  </li>
+  <li>
+  <h5><span style="font-weight: 400;">Se paraDireita = false → Invasor.X – 20 (esquerda);</span></h5>
+  </li>
+  </ul>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>23.&nbsp;</strong>Lembre-se que, para comparar se uma booleana é verdadeira, deve ser usado a função ‘</span><i><span style="font-weight: 400;">Is boolean instance variable set</span></i><span style="font-weight: 400;">’;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>24.&nbsp;</strong>Para negar uma booleana, clique em cima do evento com o botão direito e marque a opção ‘<em>Invert</em>’;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2030 size-full" src="37.jpg" alt="" width="459" height="294"  sizes="(max-width: 459px) 100vw, 459px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>25.&nbsp;</strong>Coloque as ações de movimentação nos dois eventos correspondentes;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2031 size-full" src="38.jpg" alt="" width="491" height="155"  sizes="(max-width: 491px) 100vw, 491px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>26.&nbsp;</strong>A booleana irá ser trocada quando for detectado o encontro entre os invasores e as paredes. Para tal, crie um novo evento para quando o Invasor ‘</span><i><span style="font-weight: 400;">is overlapping another object</span></i><span style="font-weight: 400;">’ (neste caso, a parede);</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2032 size-full" src="39.jpg" alt="" width="354" height="70" sizes="(max-width: 354px) 100vw, 354px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>27.&nbsp;</strong>Adicione uma nova condição, clicando com o botão direito em cima da primeira e selecionando “</span><i><span style="font-weight: 400;">Add another condition”</span></i><span style="font-weight: 400;">. Use o System e procure pela função “</span><i><span style="font-weight: 400;">Trigger once while is true”</span></i><span style="font-weight: 400;">, que irá realizar uma ação que deveria ser contínua apenas na primeira vez que é chamada;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>28.&nbsp;</strong>Por exemplo, caso seja necessário inverter uma booleana toda vez que um objeto colide com o outro, ela seria invertida em todos os frames onde ocorreram essa colisão, o que não seria o efeito desejado. Com </span><i><span style="font-weight: 400;">trigger once while is true</span></i><span style="font-weight: 400;">, essa booleana seria invertida apenas no primeiro frame;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>29.&nbsp;</strong>Crie outra condição em System chamada ‘</span><i><span style="font-weight: 400;">Pick all</span></i><span style="font-weight: 400;">’ que selecionará todas as instâncias do Invasor que estiverem na tela;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2034 size-full" src="40.jpg" alt="" width="388" height="106"  sizes="(max-width: 388px) 100vw, 388px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>30.&nbsp;</strong>Quando estas três condições acontecerem simultaneamente, as ações devem inverter o valor da ‘paraDireita’ e descer (<em>Set Y</em>) os invasores, para que eles não saiam da tela;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2033 size-full" src="41.jpg" alt="" width="491" height="106"  sizes="(max-width: 491px) 100vw, 491px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>31.&nbsp;</strong>Teste o jogo com os alunos e observa com eles quando os eventos são chamados e suas respectivas ações;</span></h5>
+  <h5 syle="text-align: left;"><span style="font-weight: 400;"><strong>32.&nbsp;</strong>Agora, para que os Invasores também atire, crie o objeto do tiro, aplicando as mesmas configurações que foram colocadas no tiro da Nave;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2035 size-full" src="42.jpg" alt="" width="255" height="442"  sizes="(max-width: 255px) 100vw, 255px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>33.&nbsp;</strong>Na </span><i><span style="font-weight: 400;">event sheet</span></i><span style="font-weight: 400;">, vamos instanciar um tiro inimigo a cada 2 segundos em algum Invasor aleatório, observe abaixo como deve ficar este bloco:</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2036 size-full" src="43.jpg" alt="" width="596" height="91"  sizes="(max-width: 596px) 100vw, 596px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>34.&nbsp;</strong>Note que, como o tiro do inimigo está descendo a tela e não subindo, sua </span><i><span style="font-weight: 400;">bullet angle of motion </span></i><span style="font-weight: 400;">deve ser o inverso da do tiro da Nave;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>35.&nbsp;</strong>Teste o jogo para que os alunos consigam perceber a diferença entre os ângulos;</span></h5>
+  <hr>
+  <p><a name="colisoes"></a></p>
+  <h3 style="text-align: left;"><b>DETECTANDO COLISÕES</b></h3>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>1.&nbsp;</strong>Neste ponto, a estrutura básica do jogo está praticamente pronta, mas ainda não foram tratadas as colisões que devem ocorrer para que as coisas de fato aconteçam no jogo;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.&nbsp;</strong>Liste as colisões que devem ocorrer com os alunos:</span></h5>
+  <ul>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Tiro da Nave </span> <span style="font-weight: 400;">x</span> <span style="font-weight: 400;"> Invasor;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Tiro do Invasor &nbsp;</span> <span style="font-weight: 400;">x </span> <span style="font-weight: 400;"> Nave;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Tiro da Nave</span> <span style="font-weight: 400;">x</span> <span style="font-weight: 400;">Tiro do Invasor;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Nave </span> <span style="font-weight: 400;">x</span> <span style="font-weight: 400;">Invasor;</span></h5>
+  </li>
+  </ul>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>3.&nbsp;</strong>Os eventos serão bem parecidos, as colisões serão detectadas com ‘</span><i><span style="font-weight: 400;">On collision with another object</span></i><span style="font-weight: 400;">’ e, por enquanto, as ações vão se resumir em ‘</span><i><span style="font-weight: 400;">Destroy object</span></i><span style="font-weight: 400;">’. Mais pra frente serão adicionadas scores e vidas que também serão tratadas nestes eventos;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>4.&nbsp;</strong>Comece com o </span><i><span style="font-weight: 400;">Tiro da Nave x Invasor</span></i><span style="font-weight: 400;"> e </span><i><span style="font-weight: 400;">Tiro da Nave x Tiro do Invasor</span></i><span style="font-weight: 400;">, ambos no grupo da Nave, destruindo os dois objetos envolvidos;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2037 size-full" src="44.jpg" alt="" width="414" height="150"  sizes="(max-width: 414px) 100vw, 414px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>5.&nbsp;</strong>No grupo do Invasor, trate a colisão </span><i><span style="font-weight: 400;">Tiro do Invasor x Nave</span></i><span style="font-weight: 400;">, destruindo apenas o tiro do invasor, visto que serão adicionadas vidas à nave. Já escreva também o evento da colisão </span><i><span style="font-weight: 400;">Nave x Invasor</span></i><span style="font-weight: 400;">, mas não coloque nenhuma ação neste momento;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2038 size-full" src="45.jpg" alt="" width="398" height="105"  sizes="(max-width: 398px) 100vw, 398px"></h5>
+  <p>&nbsp;</p>
+  <hr>
+  <p><a name="score"></a></p>
+  <h3 style="text-align: left;">ADICIONANDO SCORE E VIDAS</h3>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>1.&nbsp;</strong>Na </span><i><span style="font-weight: 400;">event sheet,</span></i><span style="font-weight: 400;"> clique com o botão direito do mouse e crie duas variáveis globais do tipo número, uma chamada Vidas com valor inicial de 3 e outra chamada Score com valor inicial de 0 (zero);</span></h5>
+  <a href="https://www.scirra.com/manual/83/variables" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> VARIABLES</span></a><img loading="lazy" decoding="async" class="aligncenter wp-image-2039 size-full" src="46.jpg" alt="" width="410" height="114" sizes="(max-width: 410px) 100vw, 410px"><p></p>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.&nbsp;</strong>Raciocine com os alunos:</span></h5>
+  <ul>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Um valor será adicionado ao Score quando os Invasores forem destruídos;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Uma vida será perdida caso a Nave seja atingida por um tiro de Invasor;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">O jogador deve perder todas as vidas caso um Invasor encoste numa nave;</span></h5>
+  </li>
+  </ul>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>3.&nbsp;</strong>Diante disso, algumas linhas de ações podem ser adicionadas nos eventos de colisões que foram criadas mais cedo. Para adicionar um valor a uma variável global, a ação deve ser feita pelo System, usando a função ‘</span><i><span style="font-weight: 400;">Add to’;</span></i>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2040 size-full" src="47.jpg" alt="" width="638" height="417" sizes="(max-width: 638px) 100vw, 638px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>4.&nbsp;</strong>Defina um valor de pontuação por Invasor destruído como, por exemplo, 50 pontos que serão adicionados ao Score;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2041 size-full" src="48.jpg" alt="" width="675" height="293"  sizes="(max-width: 675px) 100vw, 675px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>6.&nbsp;</strong>No evento de colisão <em>Tiro do Invasor x Nave</em>, uma vida será perdida, então deve-se usar a função ‘</span><i><span style="font-weight: 400;">Subtract from</span></i><span style="font-weight: 400;">’, onde 1 ponto será descontado de Vidas;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2042 size-full" src="49.jpg" alt="" width="980" height="365" sizes="(max-width: 980px) 100vw, 980px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>7.&nbsp;</strong>Por fim, o jogador deve perder todas as vidas caso um Invasor encoste a Nave. Para isto, deve-se usar a função ‘</span><i><span style="font-weight: 400;">Set value</span></i><span style="font-weight: 400;">’;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2043 size-full" src="50.jpg" alt="" width="480" height="51" sizes="(max-width: 480px) 100vw, 480px"></h5>
+  <p>&nbsp;</p>
+  <hr>
+  <p><a name="interface"></a></p>
+  <h3 style="text-align: left;"><b>INTERFACE DO USUÁRIO</b></h3>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>1.&nbsp;</strong>Teste o jogo com os alunos e cite a eles que, por mais que as variáveis já estejam funcionantes, não muda muita coisa no jogo, já que o jogador não consegue ver quantas vidas tem e sua pontuação de score;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.&nbsp;</strong>Dê uma breve explicação sobre o que é uma Interface do Usuário;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>3.&nbsp;</strong>Insira um novo objeto do tipo <strong>Texto</strong> e configure-o conforme a imagem abaixo:</span></h5>
+  <a href="https://www.scirra.com/manual/116/text" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> TEXT</span></a>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong><img loading="lazy" decoding="async" class="aligncenter wp-image-2045 size-full" src="52.jpg" alt="" width="922" height="546"  sizes="(max-width: 922px) 100vw, 922px"></strong></span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>4.&nbsp;</strong>Atente-se para colocar o objeto na layer UI. A posição do texto também vai se encontrar com a dos invasores, então leve-os um pouco mais abaixo;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>5.&nbsp;</strong>Repita o processo para o texto de score. Confira abaixo o resultado final;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2046 size-full" src="53.jpg" alt="" width="572" height="429"  sizes="(max-width: 572px) 100vw, 572px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>6.&nbsp;</strong>Para que os textos fiquem de acordo com os valores das variáveis, crie um evento que atualiza-os a cada frame;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>7.&nbsp;</strong>Comece criando um novo grupo chamado System, que irá conter todas os eventos que não são feitos pelos objetos. Crie o evento ‘</span><i><span style="font-weight: 400;">Every tick</span></i><span style="font-weight: 400;">’ e adicione duas ações que vão configurar o texto (‘</span><i><span style="font-weight: 400;">Set text</span></i><span style="font-weight: 400;">’) com os valores das variáveis;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2047 size-full" src="54.jpg" alt="" width="453" height="265"  sizes="(max-width: 453px) 100vw, 453px"></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong><img loading="lazy" decoding="async" class="aligncenter wp-image-2048 size-full" src="55.jpg" alt="" width="436" height="124"  sizes="(max-width: 436px) 100vw, 436px"></strong></span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>8.&nbsp;</strong>Mesmo contando a vida e o score, ainda falta as condições de derrota e vitória. Raciocine com os alunos:</span></h5>
+  <ul>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Para ganhar: todos os invasores devem ser derrotados → evento;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Para perder: o jogador deve perder todas as vidas → evento;</span></h5>
+  </li>
+  </ul>
+  <h5 style="text-align: left;"><b>Ganhar</b></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>9.&nbsp;</strong>O evento é: todos os invasores devem ser derrotados. Então, o sistema deve contar a quantidade de inimigos da tela e, quando esta quantidade for 0 (zero), as ações devem ser realizadas;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2049 size-full" src="56.jpg" alt="" width="436" height="254"  sizes="(max-width: 436px) 100vw, 436px"></h5>
+  <h5 style="text-align: left;"><b><img loading="lazy" decoding="async" class="aligncenter wp-image-2050 size-full" src="57.jpg" alt="" width="522" height="78"  sizes="(max-width: 522px) 100vw, 522px"></b></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><b>Perder</b></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>10.&nbsp;</strong>O evento é: o jogador não deve ter mais vidas. O sistema deve contar a quantidade de vidas da variável global e, quando chegar a 0 (zero), algumas ações devem ser tomadas;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>11.&nbsp;</strong>Para que o jogador saiba que o perdeu o jogo, dois novos sprites serão adicionados na tela, uma imagem de game over e outra com uma mensagem para o jogador apertar alguma tecla para reiniciar a partida. Ao colocar as sprites na tela, configure a visibilidade inicial das duas para </span><i><span style="font-weight: 400;">invisible;</span></i>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2051 size-full" src="58.jpg" alt="" width="907" height="475"  sizes="(max-width: 907px) 100vw, 907px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>12.&nbsp;</strong>As ações que devem ser realizadas são apenas para alterar a visibilidade das sprites colocadas e, para dar um efeito de morte, destruir o objeto da Nave;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2052 size-full" src="59.jpg" alt="" width="442" height="254"  sizes="(max-width: 442px) 100vw, 442px"></h5>
+  <p><img loading="lazy" decoding="async" class="aligncenter wp-image-2054 size-full" src="60.jpg" alt="" width="699" height="232"  sizes="(max-width: 699px) 100vw, 699px"></p>
+  <p><img loading="lazy" decoding="async" class="aligncenter wp-image-2055 size-full" src="61.jpg" alt="" width="473" height="127"  sizes="(max-width: 473px) 100vw, 473px"></p>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>13.&nbsp;</strong>O jogador poderá reiniciar a partida ao apertar ‘R’, como é instruído na mensagem da sprite. Mas isto só pode acontecer quando o game over foi de fato consolidado. Logo:</span></h5>
+  <ul>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Quando GameOver está visível </span><b>E</b><span style="font-weight: 400;"> a tecla ‘R’ for pressionada → o jogo deve ser reiniciado;</span></h5>
+  </li>
+  </ul>
+  <p><img loading="lazy" decoding="async" class="aligncenter wp-image-2058 size-full" src="62.jpg" alt="" width="527" height="101" sizes="(max-width: 527px) 100vw, 527px"></p>
+  <p>&nbsp;</p>
+  <hr>
+  <p><a name="sons"></a></p>
+  <h3 style="text-align: left;"><b>ADICIONANDO SONS</b></h3>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>1.&nbsp;</strong>No começo do projeto, foram importados os sons que serão usados no jogo. Para finalizar o projeto, basta adicionar os efeitos em seus devidos lugares;</span></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.&nbsp;</strong>Insira um novo objeto do tipo <strong>Audio</strong> na cena;</span></h5>
+  <a href="https://www.scirra.com/manual/109/audio" class="su-button su-button-style-flat" style="color:#FFFFFF;background-color:#2D89EF;border-color:#246ec0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank" rel="noopener noreferrer"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#6cadf4;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none"> AUDIO</span></a>
+  <h5 style="text-align: left;">&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2059 size-full" src="63.jpg" alt="" width="707" height="534" sizes="(max-width: 707px) 100vw, 707px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>2.&nbsp;</strong>Liste com os alunos os sons que há no projeto e quando eles serão tocados:</span></h5>
+  <ul>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Soundtrack → durante o jogo todo;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Player Laser Shot → quando o jogador atirar;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Enemy Laser Shot → quando o Invasor atirar;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Explosion → quando um dos dois forem atingidos;</span></h5>
+  </li>
+  <li style="text-align: left;">
+  <h5><span style="font-weight: 400;">Game Over → quando o jogador perde o jogo; </span></h5>
+  </li>
+  </ul>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>3.&nbsp;</strong>Revise os eventos com os alunos e tente encontrar com eles os espaços onde os sons podem ser tocados;</span><img loading="lazy" decoding="async" class="aligncenter wp-image-2059 size-full" src="64.jpg" alt="" width="701" height="421" sizes="(max-width: 701px) 100vw, 701px"></h5>
+  <h5 style="text-align: left;">&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2061 size-full" src="65.jpg" alt="" width="652" height="547"  sizes="(max-width: 652px) 100vw, 652px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>4.&nbsp;</strong>Note que, para controlar a trilha sonora do jogo, é necessário criar mais um evento que comece a tocar a música sempre no começo do layout. Porém, só com este bloco, quando o jogo recomeça, outra instância da mesma música é criada e as duas ficam tocando juntas. Isto leva a conclusão que é necessário dar um Pause na antiga trilha sonora antes que a nova comece, veja abaixo;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2063 size-full" src="66.jpg" alt="" width="672" height="452"  sizes="(max-width: 672px) 100vw, 672px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>5.&nbsp;</strong>Perceba que foi adicionado uma segunda condição no evento onde é tocado o som do Game Over. O ‘</span><i><span style="font-weight: 400;">Trigger once while true</span></i><span style="font-weight: 400;">’ evita que o efeito sonoro seja tocado a cada frame;</span></h5>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>6.&nbsp;</strong>É necessário alterar algumas configurações ao adicionar a trilha sonora para que ela não fique muito alta e que seja identificada para ser acessada pelas outras funções;</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2064 size-full" src="67.jpg" alt="" width="670" height="315"  sizes="(max-width: 670px) 100vw, 670px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: left;"><span style="font-weight: 400;"><strong>7.&nbsp;</strong>Teste o jogo com os alunos e, se não houver nenhum problema, o jogo está pronto!</span>&nbsp;<img loading="lazy" decoding="async" class="aligncenter wp-image-2065 size-full" src="68.jpg" alt="" width="899" height="667" sizes="(max-width: 899px) 100vw, 899px"></h5>
+  <p>&nbsp;</p>
+  <h5 style="text-align: center;"><strong>Instrua os alunos a salvar o projeto e guardar ele para que, no final, ele possa escolher um para publicar e para mostrar para os amigos e para a família.</strong></h5>
+  <p>&nbsp;</p>
+  </div>
+</body>
+
+</html>
